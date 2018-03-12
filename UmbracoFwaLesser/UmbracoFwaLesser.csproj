@@ -496,6 +496,7 @@
     <Content Include="Views\Partials\Grid\Editors\Media.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Rte.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
+    <Content Include="Views\Services.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Web.config" />
     <Content Include="Views\Partials\SiteLayout\_Footer.cshtml" />
@@ -506,9 +507,9 @@
     <Content Include="Views\Partials\Home\_Clients.cshtml" />
     <Content Include="Views\Blog.cshtml" />
     <Content Include="Views\Portfolio.cshtml" />
-    <Content Include="Views\Services.cshtml" />
     <Content Include="Views\Content.cshtml" />
     <Content Include="Views\Contact.cshtml" />
+    <Content Include="Views\Partials\SiteLayout\_TitleControls.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />

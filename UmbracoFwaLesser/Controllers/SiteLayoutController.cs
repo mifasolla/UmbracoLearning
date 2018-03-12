@@ -21,6 +21,11 @@ namespace UmbracoFwaLesser.Controllers
             return PartialView(PARTIAL_VIEW_FOLDER + "_Header.cshtml", nav);
         }
 
+        public ActionResult RenderTitleControls()
+        {
+            return PartialView(PARTIAL_VIEW_FOLDER + "_TitleControls.cshtml");
+        }
+
         public ActionResult RenderFooter()
         {
             return PartialView(PARTIAL_VIEW_FOLDER + "_Footer.cshtml");
